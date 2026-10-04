@@ -1,0 +1,22 @@
+.warning, .rawfail, .succes {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.succes {
+  background-color: green;
+}
+
+.rawfail {
+  background-color: red;
+}
+
+.warning {
+  background-color: grey;
+}
+
+/*# sourceMappingURL=inheritance.css.map */

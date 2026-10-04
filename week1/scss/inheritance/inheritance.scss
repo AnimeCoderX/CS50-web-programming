@@ -1,0 +1,26 @@
+%message{
+    font-family:sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding:20px;
+    margin:20px;
+}
+
+
+.succes {
+    @extend %message;
+    background-color:green;
+}
+
+.rawfail {
+    @extend %message;
+    background-color:red;
+}
+
+.warning {
+    @extend %message;
+    background-color:grey;
+}
+
+
